@@ -1,40 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Formularios en HTML</title>
+<!DOCTYPE html><!-- sirve para indicarle al navegador qué versión de HTML se está utilizando -->
+<html lang="en"><!-- sirve para indicar que el idioma principal de una página web es el inglés -->
+<head><!-- muestra información interna -->
+<meta charset="UTF-8"><!-- sirve para indicar al navegador qué codificación de caracteres debe usar -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- le avisa al navegador cómo debe mostrar una página en móviles -->
+<title>Formularios en HTML</title><!-- para definir el título oficial de una página web -->
 <!-- Libreria de iconos en linea -->
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
-awesome/7.3.1/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"><!-- hoja de estilos para íconos externos -->
 
-</head>
-<body>
-	<h2>Formularios con agrupamiento</h2>
-<form action="" method="post">
-<fieldset>
-<legend>Datos personales</legend>
+</head><!-- cierre -->
+<body><!-- cuerpo de la página -->
+	<h2>Formularios con agrupamiento</h2><!-- título secundario de la sección -->
+<form action="" method="post"><!-- contenedor principal del formulario -->
+<fieldset><!-- agrupa elementos relacionados en un formulario -->
+<legend>Datos personales</legend><!-- título para el grupo de campos de datos personales -->
 Nombre y apellido:
-<input type="text" name="nombre_apellido"><br>
+<input type="text" name="nombre_apellido"><br><!-- campo para ingresar nombre y apellido con salto de línea -->
 Documento valido:
-<input type="file" name="documento"><br>
+<input type="file" name="documento"><br><!-- campo para subir archivo de documento con salto de línea -->
 Fecha de nacimiento:
 
-<input type="date" name="fecha_nacimiento">
-</fieldset>
-<fieldset>
-<legend>Datos de estudio:</legend>
+<input type="date" name="fecha_nacimiento"><!-- campo para seleccionar la fecha de nacimiento -->
+</fieldset><!-- cierre del primer grupo de campos -->
+<fieldset><!-- agrupa elementos relacionados para datos de estudio -->
+<legend>Datos de estudio:</legend><!-- título para el grupo de campos de estudio -->
 Nombre de la escuela:
-<input type="text" name="escuela"><br>
+<input type="text" name="escuela"><br><!-- campo para ingresar el nombre de la escuela con salto de línea -->
 Certificado valido:
-<input type="file" name="certificado"><br>
+<input type="file" name="certificado"><br><!-- campo para subir archivo del certificado con salto de línea -->
 Fecha de egreso:
-<input type="date" name="fecha_egreso">
-</fieldset>
-<br>
-<button type="submit">Enviar <i class="fa-regular fa-paper-plane"></i> </button>
-<button type="reset">Borrar <i class="fa fa-trash"></i></button>
-</form>
-</body>
-</html>
+<input type="date" name="fecha_egreso"><!-- campo para seleccionar la fecha de egreso -->
+</fieldset><!-- cierre del segundo grupo de campos -->
+<br><!-- salto de línea -->
+<button type="submit">Enviar <i class="fa-regular fa-paper-plane"></i> </button><!-- botón para enviar el formulario con ícono -->
+<button type="reset">Borrar <i class="fa fa-trash"></i></button><!-- botón para reiniciar el formulario con ícono -->
+</form><!-- cierre del formulario -->
+</body><!-- cierre del cuerpo -->
+</html><!-- cierre del documento html -->
