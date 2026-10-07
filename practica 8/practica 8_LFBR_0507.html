@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURSOS</title>
+    <style>
+        #formulario {
+            display: none;
+        }
+        #formulario:target {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header style="display: flex; align-items: center; justify-content: space-between; padding: 10px 20px;">
+        <h1 style="color: #0056B3; margin: 0;"><strong>coursera</strong></h1>
+        
+        <nav style="display: flex; align-items: center; gap: 10px;">
+            <a href="#">Explorar ▾</a>
+            <a href="#">Títulos de grado</a>
+            <input type="text" placeholder="¿Qué deseas aprender?">
+            <input type="submit" value="🔍">
+            <a href="#formulario">Iniciar Sesión</a>
+            <button style="background-color: #0056B3; color: white; border: none; padding: 8px 12px;">Únete de forma gratuita</button>
+        </nav>
+    </header>
+
+    <main>
+
+        <section style="display: flex; margin-bottom: 30px;">
+            <div style="background-color: #0c1520; color: white; padding: 30px; flex: 1; display: flex; align-items: center;">
+                <div>
+                    <h2>Comience, cambie o avance en su carrera</h2>
+                    <p>Crezca con más de 10.000 cursos de las mejores organizaciones</p>
+                    <button style="background-color: #0056B3; color: white; padding: 10px; border: none;">Únase gratis →</button>
+                </div>
+                <img src="image.jpg" alt="Imagen del curso" width="150">
+            </div>
+
+            <div style="background-color: #fdf0d5; color: black; padding: 30px; flex: 1;">
+                <h2>Navegue su carrera en tecnología</h2>
+                <p>Aprenda habilidades para conseguir trabajos relacionados con tecnología.</p>
+                <button style="background-color: #0056B3; color: white; padding: 10px; border: none;">Inscríbete ahora →</button>
+            </div>
+        </section>
+
+        <h2><font color="#333">Cursos de moda</font></h2>
+
+        <table border="1">
+            <tr align="left" bgcolor="#f4f6f8">
+                <th><font color="Indigo">Más populares →</font></th>
+                <th><font color="Indigo">Destacado semanal →</font></th>
+                <th><font color="Indigo">Conocimientos de IA demandados →</font></th>
+            </tr>
+            
+            <tr>
+                <td>
+                    <img src="c1.png" alt="Google" align="left" width="50" style="margin-right: 10px;">
+                    <font color="navy"><b>Google</b></font><br>
+                    <font size="3">Análisis de datos de Google</font><br>
+                    <font size="2" color="gray">Certificado profesional • ★ 4.8</font>
+                </td>
+                <td>
+                    <img src="c2.png" alt="Hugging Face" align="left" width="50" style="margin-right: 10px;">
+                    <font color="navy"><b>Hugging Face</b></font><br>
+                    <font size="3">Desarrollo de IA generativa con Hugging Face</font><br>
+                    <font size="2" color="gray">Especialización</font>
+                </td>
+                <td>
+                    <img src="c3.png" alt="Educadores" align="left" width="50" style="margin-right: 10px;">
+                    <font color="navy"><b>Numerosos educadores</b></font><br>
+                    <font size="3">IA generativa para el marketing de crecimiento</font><br>
+                    <font size="2" color="gray">Especialización • ★ 4.7</font>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="c4.png" alt="Google" align="left" width="50" style="margin-right: 10px;">
+                    <font color="navy"><b>Google</b></font><br>
+                    <font size="3">Fundamentos: Datos, datos, en todas partes</font><br>
+                    <font size="2" color="gray">Curso • ★ 4.8</font>
+                </td>
+                <td>
+                    <img src="c5.png" alt="IBM" align="left" width="50" style="margin-right: 10px;">
+                    <font color="navy"><b>IBM</b></font><br>
+                    <font size="3">IBM Planificación y Análisis Financiero (FP&A)...</font><br>
+                    <font size="2" color="gray">Certificado profesional • ★ 4.7</font>
+                </td>
+                <td>
+                    <img src="c6.png" alt="Vanderbilt" align="left" width="50" style="margin-right: 10px;">
+                    <font color="navy"><b>Vanderbilt University</b></font><br>
+                    <font size="3">Líder estratégico de IA generativa</font><br>
+                    <font size="2" color="gray">Especialización • ★ 4.8</font>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="c7.png" alt="Michigan" align="left" width="50" style="margin-right: 10px;">
+                    <font color="navy"><b>University of Michigan</b></font><br>
+                    <font size="3">Python para todos</font><br>
+                    <font size="2" color="gray">Especialización • ★ 4.8</font>
+                </td>
+                <td>
+                    <img src="c8.png" alt="Google" align="left" width="50" style="margin-right: 10px;">
+                    <font color="navy"><b>Google</b></font><br>
+                    <font size="3">IA de Google</font><br>
+                    <font size="2" color="gray">Certificado profesional • ★ 4.8</font>
+                </td>
+                <td>
+                    <img src="c9.png" alt="IBM" align="left" width="50" style="margin-right: 10px;">
+                    <font color="navy"><b>IBM</b></font><br>
+                    <font size="3">Creación de agentes de IA y flujos de trabajo...</font><br>
+                    <font size="2" color="gray">Especialización • ★ 4.6</font>
+                </td>
+            </tr>
+        </table>
+
+        <br><br>
+        <div id="formulario" style="padding: 15px; margin-top: 20px;">
+            <a href="#" style="float: right; font-weight: bold; color: black;">❌ Cerrar</a> 
+            <h2>INICIAR SESIÓN </h2>
+            
+            <form action="" method="post">
+                Ingresa tu nombre:
+                <input type="text" name="nombre">
+                <br>
+
+                Ingresa tu correo:
+                <input type="email" name="correo">
+                <br>
+
+                crea tu contraseña:
+                <textarea name="contraseña"></textarea>
+                <br>
+                 verifica contraseña:
+                <textarea name="verificar contraseña"></textarea>
+                <br>
+
+                <input type="submit" value="enviar">
+                <input type="reset" value="reiniciar">
+            </form>
+        </div>
+
+    </main>
+
+    <footer> 
+        <p><center>LUIS FERNANDO BUENO ROCHA 5°I</center></p>
+
+    </footer>
+
+</body>
+</html>
