@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cinépolis - Próximos Estrenos</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background-color: #0b132b; color: white; }
+    
+    /* Encabezado */
+    header { background-color: #001f3f; padding: 15px; border-bottom: 3px solid #ffcc00; display: flex; justify-content: space-between; align-items: center; }
+    header h1 { margin: 0; font-size: 22px; color: #ffcc00; }
+    nav a { color: white; text-decoration: none; margin-left: 15px; font-weight: bold; font-size: 14px; }
+    nav a:hover { color: #ffcc00; }
+
+    /* Sección Próximos Estrenos */
+    main { max-width: 900px; margin: 20px auto; padding: 10px; }
+    h2 { color: #ffcc00; border-bottom: 2px solid #ffcc00; padding-bottom: 5px; text-align: center; }
+    
+    /* Rejilla sencilla de películas */
+    .grid-estrenos { display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; margin-top: 20px; }
+    article { background-color: #1c2541; width: 250px; padding: 10px; border-radius: 8px; text-align: center; border: 1px solid #ffcc00; }
+    article img { width: 100%; height: 160px; object-fit: cover; border-radius: 5px; }
+    article h3 { font-size: 16px; margin: 10px 0 5px 0; color: #ffffff; }
+    article p { font-size: 13px; color: #ffcc00; margin: 0; font-weight: bold; }
+
+    /* Footer */
+    footer { background-color: #001f3f; text-align: center; padding: 12px; margin-top: 30px; font-size: 12px; color: #ccc; }
+  </style>
+</head>
+<body>
+
+  <!-- ENCABEZADO -->
+  <header>
+    <h1>Cinépolis</h1>
+    <nav>
+      <a href="cartelera.html">Cartelera</a>
+      <a href="sitiocinepolis_LFBR_0507.html">Inicio</a>
+      <a href="estrenos.html" style="color: #ffcc00;">Próximos Estrenos</a>
+      <a href="registro_club.html">Club Cinépolis 💳</a>
+    </nav>
+  </header>
+
+  <!-- CONTENIDO: PRÓXIMOS ESTRENOS -->
+  <main>
+    <section>
+      <h2>🎬 Próximos Estrenos</h2>
+      
+      <div class="grid-estrenos">
+        
+        <!-- Película 1 -->
+        <article>
+          <img src="estreno1.png" alt="(Jonás Cuarón / Película inaugural FICM) ">
+          <h3>Campeón Gabacho</h3>
+          <p>Estreno: 29 de octubre de 2026</p>
+        </article>
+
+        <!-- Película 2 -->
+        <article>
+          <img src="estreno2.png" alt="The Hunger Games: Sunrise on the Reaping">
+          <h3>The Hunger Games: Sunrise on the Reaping</h3>
+          <p>Estreno: 20 de noviembre de 2026</p>
+        </article>
+
+        <!-- Película 3 -->
+        <article>
+          <img src="estreno3.png" alt="Violent Night 2 ">
+          <h3>Violent Night 2 </h3>
+          <p>Estreno: 4 de diciembre de 2026</p>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    <p>Sitio Web Cinépolis | Desarrollado por Alumno:LUIS FERNANDO BUENO ROCHA de Programación 5° Semestre</p>
+  </footer>
+
+</body>
+</html>
