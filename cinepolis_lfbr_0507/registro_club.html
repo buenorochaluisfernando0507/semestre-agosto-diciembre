@@ -3,79 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cinépolis - Ingreso Club Cinépolis HTML5</title>
+  <title>Cinépolis - Club Cinépolis</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; background-color: #0b132b; color: white; }
-    
-    /* Encabezado y Navegación */
-    header { background-color: #001f3f; padding: 15px 30px; border-bottom: 3px solid #ffcc00; display: flex; justify-content: space-between; align-items: center; }
-    header h1 { margin: 0; font-size: 24px; color: #ffcc00; }
-    nav a { color: white; text-decoration: none; margin-left: 15px; font-weight: bold; font-size: 14px; }
-    
-    /* Formulario HTML5 */
-    main { display: flex; justify-content: center; align-items: center; padding: 40px 20px; }
-    section { background-color: #1c2541; width: 320px; padding: 25px; border-radius: 8px; border: 1px solid #ffcc00; }
-    section h2 { text-align: center; color: #ffcc00; margin-top: 0; font-size: 20px; }
-    
-    .form-group { margin-bottom: 12px; }
-    .form-group label { display: block; font-size: 13px; margin-bottom: 4px; color: #cbd5e1; }
-    .form-group input { width: 93%; padding: 8px; border-radius: 4px; border: 1px solid #ccc; font-size: 13px; }
-    
-    button { width: 100%; background-color: #ffcc00; color: #001f3f; font-weight: bold; padding: 10px; border: none; border-radius: 4px; cursor: pointer; margin-top: 10px; }
-    button:hover { background-color: #e6b800; }
-
-    /* Footer */
-    footer { background-color: #001f3f; text-align: center; padding: 15px; margin-top: 40px; font-size: 13px; color: #cccccc; }
+    body { font-family: Arial, sans-serif; margin: 0; background: #0b132b; color: #fff; text-align: center; }
+    header, footer { background: #001f3f; padding: 15px; }
+    header { display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid #ffcc00; }
+    h1, h2, nav a[style] { color: #ffcc00; }
+    h1, h2, p { margin: 0; }
+    nav a { color: #fff; text-decoration: none; margin-left: 15px; font-weight: bold; font-size: 14px; }
+    section { background: #1c2541; width: 320px; padding: 25px; margin: 40px auto; border-radius: 8px; border: 1px solid #ffcc00; text-align: left; }
+    p { font-size: 12px; color: #a0aec0; text-align: center; margin-top: 5px; }
+    label { display: block; font-size: 13px; margin: 12px 0 4px; color: #cbd5e1; }
+    input, button { width: 100%; padding: 8px; border-radius: 4px; box-sizing: border-box; }
+    input { border: 1px solid #ccc; }
+    button { background: #ffcc00; color: #001f3f; font-weight: bold; border: 0; cursor: pointer; margin-top: 15px; }
+    footer { color: #ccc; font-size: 13px; }
   </style>
 </head>
 <body>
 
-  <!-- ENCABEZADO CON NAVEGACIÓN -->
   <header>
     <h1>Cinépolis</h1>
     <nav>
       <a href="cartelera.html">Cartelera</a>
-      <a href="sitiocinepolis_LFBR_0507.html">inicio</a>
+      <a href="sitiocinepolis_LFBR_0507.html">Inicio</a>
       <a href="index.html#estrenos">Próximos Estrenos</a>
       <a href="registro_club.html" style="color: #ffcc00;">Club Cinépolis 💳</a>
     </nav>
   </header>
 
-  <!-- FORMULARIO EN MAIN Y SECTION SEMÁNTICO -->
   <main>
     <section>
       <h2>Club Cinépolis</h2>
-      <p style="font-size: 12px; text-align: center; color: #a0aec0; margin-bottom: 15px;">Ingresa tus datos o los de tu tarjeta de socio</p>
+      <p>Ingresa tus datos o los de tu tarjeta de socio</p>
 
       <form action="#" method="POST">
-        <div class="form-group">
-          <label for="nombre">Nombre Completo:</label>
-          <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required>
-        </div>
+        <label for="nombre">Nombre Completo:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required>
 
-        <div class="form-group">
-          <label for="tarjeta">Número de Tarjeta Club Cinépolis:</label>
-          <input type="text" id="tarjeta" name="tarjeta" placeholder="16 dígitos de tu tarjeta" required maxlength="16">
-        </div>
+        <label for="tarjeta">Número de Tarjeta Club Cinépolis:</label>
+        <input type="text" id="tarjeta" name="tarjeta" placeholder="16 dígitos de tu tarjeta" required maxlength="16">
 
-        <div class="form-group">
-          <label for="correo">Correo Electrónico:</label>
-          <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com" required>
-        </div>
-
-        <div class="form-group">
-          <label for="pass">Contraseña:</label>
-          <input type="password" id="pass" name="pass" placeholder="••••••••" required>
-        </div>
+        <label for="pass">Contraseña:</label>
+        <input type="password" id="pass" name="pass" placeholder="••••••••" required>
 
         <button type="submit">Ingresar a mi Club</button>
       </form>
     </section>
   </main>
 
-  <!-- PIE DE PÁGINA -->
   <footer>
-    <p>&copy; 2026 Sitio Web Cinépolis | Desarrollado por Alumno:LUIS FERNANDO BUENO  ROCHA de Programación 5° Semestre</p>
+    <p>&copy; 2026 Sitio Web Cinépolis | Desarrollado por Alumno: LUIS FERNANDO BUENO ROCHA de Programación 5° Semestre</p>
   </footer>
 
 </body>
