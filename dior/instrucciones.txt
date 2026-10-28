@@ -1,0 +1,37 @@
+=====================================================
+  INSTRUCCIONES PARA EJECUTAR EL PROYECTO DIOR x SHEIN
+=====================================================
+
+Para poder probar el sitio web y el registro en la base de datos correctamente, siga estos pasos:
+
+1. COPIAR LA CARPETA
+   Copie la carpeta "dior" dentro de la ruta de XAMPP en su computadora:
+   C:\xampp\htdocs\dior\
+
+2. ACTIVAR EL SERVIDOR
+   Abre el panel de control de XAMPP (XAMPP Control Panel) e inicia los servicios:
+   - Apache (Start)
+   - MySQL (Start)
+
+3. IMPORTAR LA BASE DE DATOS
+   - Abre el navegador e ingresa a: http://localhost/phpmyadmin/
+   - Crea una nueva base de datos llamada: dior_db
+   - En la pestaña "SQL" o "Importar", ejecuta/importa el archivo SQL adjunto (dior_db.sql) 
+     o crea la tabla ejecutando:
+
+     CREATE TABLE pedidos (
+         id INT AUTO_INCREMENT PRIMARY KEY,
+         producto VARCHAR(50),
+         nombre VARCHAR(50),
+         correo VARCHAR(50),
+         direccion VARCHAR(100),
+         metodo VARCHAR(30)
+     );
+
+4. ACCEDER AL SITIO WEB (IMPORTANTE)
+   No abra los archivos con doble clic. Para que la base de datos y PHP funcionen, 
+   ingrese desde el navegador a la siguiente dirección:
+
+   --> http://localhost/dior/perfumes.html <--
+
+=====================================================

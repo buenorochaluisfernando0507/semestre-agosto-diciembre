@@ -1,0 +1,194 @@
+body {
+            background-color: #ffffff; 
+            color: #000000;            
+            font-family: 'Montserrat', sans-serif; 
+            letter-spacing: 1.5px;     
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+            padding: 30px 5%;            
+            border-bottom: 1px solid #f0f0f0; 
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif; /* Fuente con estilo clásico y elegante */
+            font-size: 24px;
+            font-weight: 400;
+            text-transform: uppercase; /* Forzar mayúsculas */
+            letter-spacing: 4px;       /* Letras muy separadas */
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #000000;
+            font-size: 11px;           /* Texto de menú pequeño y discreto */
+            text-transform: uppercase;
+            margin-left: 30px;         /* Espacio entre cada enlace */
+            font-weight: 400;
+           
+        }
+
+       
+        .titulo {
+            display: flex;
+            flex-direction: column; 
+            align-items: center;    /* Centra todo horizontalmente */
+            text-align: center;     /* Asegura que el texto largo también se centre */
+            padding: 60px 5%;       /* Espacio elegante arriba y abajo */
+        }
+
+
+        .portada {
+           font-size: 12px;
+           text-transform: uppercase;
+           color: #777777;
+           margin-bottom: 40px;
+           letter-spacing: 3px;
+   
+        }
+
+        .portada img {
+           width: 100%;
+           max-width: 1100px; 
+           height: 600px;     
+           object-fit: cover; 
+}
+
+
+
+/* Configuración básica de la letra y el fondo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Contenedor principal para centrar el contenido */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/* Estilo para las secciones de contenido */
+.seccion {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+   
+}
+
+/* Estilo de los títulos secundarios */
+h2 {
+    color: #1E4D2B;
+    border-bottom: 2px solid #f2f2f2;
+    padding-bottom: 10px;
+}
+
+/* Estilo de las listas */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 20px; /* Más espacio para acomodar las fotos */
+}
+
+/* NUEVOS ESTILOS PARA LAS IMÁGENES */
+
+/* Fotos grandes para las tendencias principales */
+.foto-tendencia {
+    width: 100%;          /* Ocupa todo el ancho de su tarjeta */
+    max-height: auto;    /* Limita la altura para que no sea infinita */
+    border-radius: 6px;   /* Esquinas sutilmente redondeadas */
+    margin: 10px 0 20px 0;/* Espacio arriba y abajo de la foto */
+}
+
+/* Fotos medianas para los elementos de la lista */
+.foto-tienda {
+    width: 50%;           /* Ocupa la mitad del ancho disponible */
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-top: 10px;     /* Separa la foto del texto de la lista */
+}
+
+/* --- SECCIÓN DE PERFUMES DIOR --- */
+
+/* Estilos para todo el texto de la página (opcional si ya tienes uno en tu body) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333333;
+    text-align: center; 
+    padding: 20px;
+}
+
+/* Estilo para el título principal */
+h1 {
+    color: #111111;
+}
+
+/* Bloque contenedor para cada perfume */
+.tarjeta-perfume {
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    width: 300px;
+    margin: 30px auto; 
+    padding: 20px;
+}
+
+/* Control básico de las imágenes */
+.tarjeta-perfume img {
+    width: 200px;
+    height: 200px;
+}
+
+/* Estilo para los nombres de los perfumes */
+.nombre {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+/* Estilo para las descripciones */
+.descripcion {
+    font-size: 14px;
+    color: #666666;
+    margin: 10px;
+}
+
+/* Estilo para el precio */
+.precio {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin: 15px;
+}
+
+/* Botón de compra plano y sencillo */
+.btn-comprar {
+    display: inline-block;
+    background-color: #1e3a8a;
+    color: #ffffff;
+    padding: 10px;
+    width: 80%; 
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+
